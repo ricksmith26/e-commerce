@@ -1,0 +1,45 @@
+.userbarContainer {
+    width: 100%;
+    height: 50px;
+    background-color: #FDED2A;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#menuName {
+    max-width: 150px;
+    height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    text-align: flex-start;
+    align-content: center;
+    margin-left: 16px;
+}
+
+#menuName > .vertical-sub-menu {
+    visibility: hidden;
+    width: max-content
+}
+
+#menuName:hover > .vertical-sub-menu {
+    visibility: visible;
+    
+}
+.vertical-sub-menu:hover {
+    visibility: visible;
+    
+}
+
+.menuItemName {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}

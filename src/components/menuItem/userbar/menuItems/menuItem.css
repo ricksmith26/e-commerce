@@ -1,0 +1,26 @@
+.verticalList {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    text-align: start;
+    align-content: center;
+    width: max-content;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    margin-top: 20px
+}
+
+.listItem {
+    width: 100%;
+    height: max-content;
+    padding: 8px;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    background-color: #FFFCDC;
+    margin-left: 16px;
+
+}
