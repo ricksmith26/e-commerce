@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './userbar.css';
-import { menuItems } from '../../../shared/dev-data';
+import { menuItems } from '../../shared/dev-data';
 import MenuItem from './menuItems/index';
 
 class Userbar extends Component {

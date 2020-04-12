@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import Userbar from './components/menuItem/userbar/index';
+import Userbar from './components/userbar/index';
 import './App.css';
 
 function App() {
